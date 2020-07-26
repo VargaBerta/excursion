@@ -1,0 +1,29 @@
+body {
+    background-color: #000;
+    font-family: Verdana, sans-serif;
+}
+
+/* Header */
+
+header h1 {
+    
+    font-weight: normal;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+header p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+header a {
+    color: aquamarine;
+}
+
+.video-container{
+display: flex;
+justify-content: center;
+}
