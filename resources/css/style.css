@@ -1,8 +1,14 @@
+/*Universal Styles*/
 body {
     background-color: #000;
     font-family: Verdana, sans-serif;
 }
 
+.download {
+    color: aquamarine;
+    font-weight: normal;
+
+}
 /* Header */
 
 header h1 {
@@ -19,11 +25,47 @@ header p {
     font-weight: bold;
 }
 
-header a {
-    color: aquamarine;
-}
+/* Video */
 
 .video-container{
 display: flex;
 justify-content: center;
+}
+
+/* Camp */
+
+.camp-image h2{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.camp-image h3 {
+    color: #808080;
+    font-size: 21px; 
+    font-weight: normal;
+}
+
+.camp-image{
+    text-align: center;
+}
+ 
+/* Footer */
+
+footer { text-align: center; }
+
+footer p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer h2 {
+    color:#ffffff;
+    font-weight: normal;
+}
+
+.copyright {
+    color: #808080;
+    text-align: right;
+    font-weight: normal;
 }
